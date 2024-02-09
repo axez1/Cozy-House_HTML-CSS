@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="shortcut icon" href="../assets/images/favicon.jpg" type="image/x-icon">
+  <script src="../js/main.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="https://kit.fontawesome.com/436d06b70d.js" crossorigin="anonymous"></script>
+  <title>About the shelter</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="header__logo-text">
+          <h3 class="logo-text"><a href="#">Cozy House</a></h3>
+          <p>Shelter for pets in Boston</p>
+        </div>
+        <!--<div class="header__burger"></div>-->
+        <input type="checkbox" name="burger" id="burger">
+        <label for="burger"></label>               
+        <nav class="header__nav">
+          <ul>
+            <li><a class="active" href="#">About the shelter</a></li>
+            <li><a href="Our pets.html" target="_blank">Our pets</a></li>
+            <li><a href="#" target="_blank">Help the shelter</a></li>
+            <li><a href="#" target="_blank">Contacts</a></li>
+          </ul>
+        </nav>        
+      </div>
+      <div class="header__main">
+        <div class="header__main-text">
+          <h1>Not only people need a house</h1>
+          <p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+          <button class="btn header__main-btn">Make a friend</button>
+        </div>
+        <div class="header__main-img">
+          <img src="../assets/images/start-screen-puppy.png" alt="dog">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="preview">
+    <div class="container">
+      <div class="preview__items">
+        <div class="preview__img">
+          <img src="../assets/images/about-pets.png" alt="pets">
+        </div>
+        <div class="preview__text">
+          <h3>About the shelter “Cozy House”</h3>
+          <p>Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+          <p>We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+        </div>
+      </div>
+    </div>    
+  </section>
+  <section class="friends">
+    <div class="container">
+      <div class="friends__items">
+        <h3>Our friends who are looking for a house</h3>
+        <div class="friends__nav-bar">
+          <button class="arrow"><a href="#"><img src="../assets/images/leftArrow.svg" alt="left"></a></button>
+          <div class="friends__card">
+            <div class="friends__card-img">
+              <img src="../assets/images/pets-katrine.png" alt="cat is Katrine">
+            </div>
+            <h4>Katrine</h4>
+            <button class="btn friends__card-btn">Learn more</button>
+            <button class="btn__like" onclick="count_btn_like()">
+              <span class="left-slide">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ff0000}</style><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
+              </span>
+              <span id="count">0</span>
+            </button>
+          </div>
+          <div class="friends__card">
+            <div class="friends__card-img">
+              <img src="../assets/images/pets-jennifer.png" alt="dog is Jennifer">
+            </div>
+            <h4>Jennifer</h4>
+            <button class="btn friends__card-btn">Learn more</button>
+            <button class="btn__like" onclick="count_btn_like()">
+              <span class="left-slide">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ff0000}</style><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
+              </span>
+              <span id="count">0</span>
+            </button>
+          </div>
+          <div class="friends__card">
+            <div class="friends__card-img">
+              <img src="../assets/images/pets-woody.png" alt="dog is Woody">
+            </div>
+            <h4>Woody</h4>
+            <button class="btn friends__card-btn">Learn more</button>
+            <button class="btn__like" onclick="count_btn_like()">
+              <span class="left-slide">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ff0000}</style><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
+              </span>
+              <span id="count">0</span>
+            </button>
+          </div>
+          <button class="arrow"><a href="#"><img src="../assets/images/rightArrow.svg" alt="right"></a></button>
+        </div>
+        <button class="btn friends__btn">Get to know the rest</button>
+      </div>
+    </div>
+  </section>
+  <section class="items">
+    <div class="container">
+      <div class="items__buy">
+        <h3>How you can help our shelter</h3>
+        <div class="items__buy-showcase">
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/Botlle.svg" alt="botlle">
+                </div>
+                <h4>Pet food</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/transportation.svg" alt="Car is transportation">
+                </div>
+                <h4>Transportation</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/toys.svg" alt="toys">
+                </div>
+                <h4>Toys</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/bowls-and-cups.svg" alt="bowls-and-cups">
+                </div>
+                <h4>Bowls and cups</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/shampoos.svg" alt="shampoos">
+                </div>
+                <h4>Shampoos</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/vitamins.svg" alt="vitamins">
+                </div>
+                <h4>Vitamins</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/medicines.svg" alt="medicines">
+                </div>
+                <h4>Medicines</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/collars-or-leashes.svg" alt="collars-or-leashes">
+                </div>
+                <h4>Collars / leashes</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="items__buy-card">
+                <div class="items__buy-img">
+                  <img src="../assets/images/sleeping-area.svg" alt="sleeping-area">
+                </div>
+                <h4>Sleeping areas</h4>
+              </div>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="donate">
+    <div class="container">
+      <div class="donate__items">
+        <div class="donate__items-img">
+          <img src="../assets/images/donation-dog.png" alt="dog">
+        </div>
+        <div class="donate__items-text">
+          <h3>You can also make a donation</h3>
+          <p class="small-width">Name of the bank / Type of bank account</p>
+          <div class="donate__items-creditcard">
+            <div class="donate__items-walet-img">
+              <img src="../assets/images/credit-card.svg" alt="credit card">
+            </div>
+            <p>8380 2880 8028 8791 7435</p>
+          </div>
+          <p class="italic">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__items-wrap">
+          <div class="footer__item">
+            <h3>For questions and suggestions</h3>
+            <div class="footer__item-stroke">
+              <img src="../assets/images/icon-email.svg" alt="email">
+              <a href="mailto:email@shelter.com">email@shelter.com</a>
+            </div>
+            <div class="footer__item-stroke">
+              <img src="../assets/images/phone.svg" alt="phone">
+              <a href="tel:+13 674 567 75 54">+13 674 567 75 54</a>
+            </div>
+          </div>
+          <div class="footer__item">
+            <h3>We are waiting for your visit</h3>
+            <div class="footer__item-stroke">
+              <img src="../assets/images/pin.svg" alt="pin">
+              <a href="https://www.google.com/maps/place/1+Centre+St,+Boston,+MA+02119,+%D0%A1%D0%A8%D0%90/@42.3300628,-71.0945777,17z/data=!3m1!4b1!4m6!3m5!1s0x89e37a260516d22d:0x67663c18c6a54ce9!8m2!3d42.3300628!4d-71.0920028!16s%2Fg%2F11td12jd0m?entry=ttu" target="_blank"><address>1 Central Street, Boston (entrance from the store)</address></a>
+            </div>
+            <div class="footer__item-stroke">
+              <img src="../assets/images/pin.svg" alt="pin">
+              <a href="https://www.google.com/maps/place/18+S+Park+Cres,+London+SE6+1JW,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.4424604,0.0009427,17z/data=!3m1!4b1!4m10!1m2!2m1!1s18+South+Park,+London!3m6!1s0x47d8a9e35f520529:0x8d1b5611767e32ec!8m2!3d51.4424572!4d0.0058136!15sChUxOCBTb3V0aCBQYXJrLCBMb25kb26SARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11c4qzkt24?entry=ttu" target="_blank"><address>18 South Park, London </address></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__items-img">
+          <img src="../assets/images/footer-puppy.png" alt="dog">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
